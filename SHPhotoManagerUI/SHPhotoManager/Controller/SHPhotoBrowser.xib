@@ -63,7 +63,7 @@
                                     <rect key="frame" x="9" y="7" width="20" height="20"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <state key="normal" image="photo_circle.png"/>
-                                    <state key="selected" image="SHPhoto_selected.png"/>
+                                    <state key="selected" image="photo_selected.png"/>
                                     <connections>
                                         <action selector="changeSizeAction:" destination="-1" eventType="touchUpInside" id="Yef-pC-99o"/>
                                     </connections>
@@ -112,7 +112,7 @@
         </view>
     </objects>
     <resources>
-        <image name="SHPhoto_selected.png" width="24" height="24"/>
         <image name="photo_circle.png" width="24" height="24"/>
+        <image name="photo_selected.png" width="23" height="23"/>
     </resources>
 </document>

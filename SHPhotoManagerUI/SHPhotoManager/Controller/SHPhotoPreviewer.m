@@ -33,6 +33,7 @@
 
 #pragma mark - UI
 - (void)setupUI {
+    
     if (self.previewPhotos) {
         self.dataSource = self.previewPhotos.copy;
     }else if (self.isPreviewSelectedPhotos) {
@@ -61,7 +62,7 @@
         self.navigationItem.leftBarButtonItem = backItem;
     }
     
-    self.selBtn = [UIButton buttonWithFrame:CGRectMake(0, 0, 26, 26) Target:self Selector:@selector(selBtnAction:) Image:@"SHPhoto_circle" ImageSelected:@"SHPhoto_selected"];
+    self.selBtn = [UIButton buttonWithFrame:CGRectMake(0, 0, 26, 26) Target:self Selector:@selector(selBtnAction:) Image:@"photo_circle" ImageSelected:@"photo_selected"];
     UIBarButtonItem * navSelItem = [[UIBarButtonItem alloc]initWithCustomView:self.selBtn];
     self.navigationItem.rightBarButtonItem = navSelItem;
     
